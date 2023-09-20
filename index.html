@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta cha₹et="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chocolate</title>
+    <link rel="shortcut icon" href="/assets/chocologo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cursor">
+    </div>
+
+    <div id="main">
+        <div id="notify">
+            <p>Product added to cart</p>
+        </div>
+
+        <nav>
+            <div class="logo">
+                <img src="/Media/logo.png" alt="logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="">Home</a></li>
+                <li><a href="">Chocolates</a></li>
+                <li><a href="">Cookies</a></li>
+                <li><a href="">Drinks</a></li>
+            </ul>
+            <div id="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p>0</p>
+            </div>
+        </nav>
+
+        <div id="products">
+            <div id="a" class="product">
+                <div class="product-image">
+                    <img src="/Media/chocolate.jpg" alt="product">
+                </div>
+                <div class="product-desc">
+                    <h3>Milk Bar Family</h3>
+                    <p>₹699.00</p>
+                    
+                    <div class="add-to-cart">
+                        <div class="change-quantity">
+                            <button class="decrease">-</button>
+                            <input type="text" value="1">
+                            <button class="increase">+</button>
+                        </div>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div id="b" class="product">
+                <div class="product-image">
+                    <img src="/Media/coffee-chocolate.jpg" alt="product">
+                </div>
+                <div class="product-desc">
+                    <h3>coffee chocolate</h3>
+                    <p>₹250.00</p>
+                    
+                    <div class="add-to-cart">
+                        <div class="change-quantity">
+                            <button class="decrease">-</button>
+                            <input type="text" value="1">
+                            <button class="increase">+</button>
+                        </div>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div id="c" class="product">
+                <div class="product-image">
+                    <img src="/Media/love-chocolate.jpg" alt="product">
+                </div>
+                <div class="product-desc">
+                    <h3>love chocolate</h3>
+                    <p>₹999.00</p>
+                    
+                    <div class="add-to-cart">
+                        <div class="change-quantity">
+                            <button class="decrease">-</button>
+                            <input type="text" value="1">
+                            <button class="increase">+</button>
+                        </div>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div id="d" class="product">
+                <div class="product-image">
+                    <img src="/Media/strawberry.jpg" alt="product">
+                </div>
+                <div class="product-desc">
+                    <h3>strawberry chocolate</h3>
+                    <p>₹899.00</p>
+                    
+                    <div class="add-to-cart">
+                        <div class="change-quantity">
+                            <button class="decrease">-</button>
+                            <input type="text" value="1">
+                            <button class="increase">+</button>
+                        </div>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    
+
+    <div class="cart-container">
+        <div class="products-container">
+            <div class="title">
+                <h1>Cart</h1>
+                <button id="close-cart"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+
+            <div class="product-container">
+                <div class="cart-product">
+                    <h3></h3>
+                    <p>2</p>
+                    <p>₹799.00</p>
+                    <button class="remove-from-cart" data-productid=""><i class="fa-solid fa-trash"></i></button>
+                </div>
+            </div>
+
+            <div class="checkout">
+                <h3>Total: ₹799.00</h3>
+                <button id="checkout-btn">Checkout</button>
+            </div>
+        </div>
+
+        <div class="overlay"></div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/1dd0c8a742.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
